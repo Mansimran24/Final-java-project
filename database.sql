@@ -1,0 +1,10 @@
+CREATE DATABASE TheBlog;
+USE TheBlog;
+CREATE TABLE blog
+(
+  id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  blog TEXT NOT NULL,
+  authorname VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);

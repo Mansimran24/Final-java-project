@@ -1,0 +1,50 @@
+.title{
+  text-align: center;
+  padding-left: 180px;
+}
+.link{
+  padding: 0 10px;
+}
+.readmore{
+  color: white;
+}
+.blogtitle{
+  text-align: center;
+}
+
+.mvls-container {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 6px;
+
+}
+@media (min-width: 720px) {
+    .mvls-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.mvls-header .mvls-container {
+    padding: 0 12px;
+}
+
+.mvls-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 48px;
+}
+
+.mvls-nav .mvls-title {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.mvls-nav a {
+    font-size: 0.875rem;
+    margin-right: 10px;
+    color: #4299e1;
+    text-decoration: none;
+}
